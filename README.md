@@ -6,7 +6,6 @@ This project focuses on analyzing and predicting powerlifting performance based 
 ## How to run
 There are a few ways to run the experiments and reproduce the results, you can follow any of the provided steps below:
 Clone the repository:
-bash
 ```
 git clone https://github.com/b2529361/MachineLearningProject.git
 ```
