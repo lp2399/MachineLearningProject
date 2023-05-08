@@ -325,7 +325,7 @@ def model_performance(model, X_train, y_train, X_val, y_val, model_name):
     print("Mean Squared Error: " + str(mse_val))
 
 lr = LinearRegression()
-knn = KNeighborsRegressor(n_neighbors=7)
+knn = KNeighborsRegressor(n_neighbors=5)
 mlp = MLPRegressor(
     activation='relu',
     hidden_layer_sizes=(10, 100),
