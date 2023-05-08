@@ -323,6 +323,7 @@ def model_performance(model, X_train, y_train, X_val, y_val, model_name):
     print("Validation performance:")
     print("Mean Absolute Error: " + str(mae_val))
     print("Mean Squared Error: " + str(mse_val))
+    print("R-squared: " + str(r2_train))
 
 lr = LinearRegression()
 knn = KNeighborsRegressor(n_neighbors=5)
@@ -381,9 +382,9 @@ def print_results(results):
   print("Model name: " + str(results[0]))
   print("Total training time : " + str(results[1]) + " seconds")
   print("Memory size: " + str(results[2]) + " bytes")
-  print("Mean Absolute Error (MAE): " + str(results[3]))
-  print("Mean Squared Error (MSE): " + str(results[4]))
-  print("R^2 score: " + str(results[5]))
+  print("Mean Absolute Error : " + str(results[3]))
+  print("Mean Squared Error : " + str(results[4]))
+  print("R-squared: " + str(results[5]))
   print('--------------------------------------------')
 
 lr = LinearRegression()
