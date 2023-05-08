@@ -1,0 +1,10 @@
+seaborn==0.12.2
+pandas==1.5.3
+pandas-datareader==0.10.0
+pandas-gbq==0.17.9
+sklearn-pandas==2.2.0
+numpy==1.22.4
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+matplotlib-venn==0.11.9
+scikit-learn==1.2.2
