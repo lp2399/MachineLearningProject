@@ -1,5 +1,5 @@
 # MachineLearningProject
-# Project Title: Powerlifting Performance Analysis and Prediction:
+# Powerlifting Performance Analysis and Prediction:
 
 
 This project focuses on analyzing and predicting powerlifting performance based on features such as age, sex, equipment, body weight, and weight class. We have used the open powerlifting dataset from [Kaggle Open Powerlifting](https://www.kaggle.com/datasets/open-powerlifting/powerlifting-database?select=openpowerlifting.csv), which contains powerlifting competition data from across the world. In this project, we performed exploratory data analysis, visualize some data features, and build machine learning models to predict a lift total of a powerlifter based on the previously listed features.
